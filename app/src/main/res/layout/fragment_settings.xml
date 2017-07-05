@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/setting_menu_background"
+        android:orientation="vertical">
+
+        <com.snailstudio.library.baseview.ElasticScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textview_title"
+                    android:layout_marginTop="4dp"
+                    android:text="Calculator settings" />
+
+                <LinearLayout style="@style/linearlayout_out">
+
+                    <!-- 上圆角 -->
+
+                    <LinearLayout
+                        android:id="@+id/setting_point_sum"
+                        style="@style/linearlayout_top">
+
+                        <TextView
+                            style="@style/textview_full"
+                            android:text="@string/help_set_point_sum" />
+
+                        <ImageView style="@style/imageview_arrow" />
+                    </LinearLayout>
+
+                    <!-- 分割线 -->
+
+                    <View style="@style/bg_line" />
+
+                    <!-- 无圆角 -->
+
+                    <LinearLayout
+                        android:id="@+id/setting_auto_save"
+                        style="@style/linearlayout_mid">
+
+                        <TextView
+                            style="@style/textview_full"
+                            android:text="@string/help_set_auto_save" />
+
+                        <CheckBox
+                            android:id="@+id/setting_cb_auto_save"
+                            style="@style/checkbox_base" />
+                    </LinearLayout>
+
+                    <View style="@style/bg_line" />
+
+                    <!-- 下圆角 -->
+
+                    <LinearLayout
+                        android:id="@+id/setting_make"
+                        style="@style/linearlayout_bottom">
+
+                        <TextView
+                            style="@style/textview_full"
+                            android:text="@string/help_set_make" />
+
+                        <ImageView style="@style/imageview_arrow" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    style="@style/textview_title"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/help_set_sound" />
+
+                <LinearLayout style="@style/linearlayout_out">
+
+                    <!-- 上圆角 -->
+
+                    <LinearLayout
+                        android:id="@+id/setting_key_respond"
+                        style="@style/linearlayout_top">
+
+                        <TextView
+                            style="@style/textview_full"
+                            android:text="@string/help_set_key_respond" />
+
+                        <ImageView style="@style/imageview_arrow" />
+                    </LinearLayout>
+
+                    <View style="@style/bg_line" />
+
+                    <!-- 下圆角 -->
+
+                    <LinearLayout
+                        android:id="@+id/setting_vibrator_time"
+                        style="@style/linearlayout_bottom">
+
+                        <TextView
+                            style="@style/textview_full"
+                            android:text="@string/help_set_vibrator_time" />
+
+                        <ImageView style="@style/imageview_arrow" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    style="@style/textview_title"
+                    android:text="@string/help_set_software" />
+
+                <LinearLayout style="@style/linearlayout_out">
+
+                    <!-- 上圆角 -->
+
+                    <LinearLayout
+                        android:id="@+id/setting_feedback"
+                        style="@style/linearlayout_top">
+
+                        <TextView
+                            style="@style/textview_full"
+                            android:text="@string/help_set_feedback" />
+
+                        <ImageView style="@style/imageview_arrow" />
+                    </LinearLayout>
+
+                    <!-- 分割线 -->
+
+                    <View style="@style/bg_line" />
+
+                    <!-- 无圆角 -->
+
+                    <LinearLayout
+                        android:id="@+id/setting_updata"
+                        style="@style/linearlayout_mid">
+
+                        <TextView
+                            style="@style/textview_full"
+                            android:text="@string/help_set_updata" />
+
+                        <ImageView style="@style/imageview_arrow" />
+                    </LinearLayout>
+
+                    <!-- 分割线 -->
+
+                    <View style="@style/bg_line" />
+
+                    <!-- 无圆角 -->
+
+                    <LinearLayout
+                        android:id="@+id/setting_share"
+                        style="@style/linearlayout_mid">
+
+                        <TextView
+                            style="@style/textview_full"
+                            android:text="@string/help_set_share" />
+
+                        <ImageView style="@style/imageview_arrow" />
+                    </LinearLayout>
+
+                    <!-- 分割线 -->
+
+                    <View style="@style/bg_line" />
+
+                    <!-- 无圆角 -->
+
+                    <LinearLayout
+                        android:id="@+id/setting_score"
+                        style="@style/linearlayout_mid">
+
+                        <TextView
+                            style="@style/textview_full"
+                            android:text="@string/help_set_score" />
+
+                        <ImageView style="@style/imageview_arrow" />
+                    </LinearLayout>
+
+                    <!-- 分割线 -->
+
+                    <View style="@style/bg_line" />
+
+                    <!-- 下圆角 -->
+
+                    <LinearLayout
+                        android:id="@+id/setting_find"
+                        style="@style/linearlayout_bottom">
+
+                        <TextView
+                            style="@style/textview_full"
+                            android:text="@string/help_set_about" />
+
+                        <ImageView style="@style/imageview_arrow" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.snailstudio.library.baseview.ElasticScrollView>
+
+
+    </LinearLayout>
+</layout>

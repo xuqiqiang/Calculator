@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string-array name="list_decimal_separator">
+        <item>点</item>
+        <item>逗号</item>
+    </string-array>
+    <string-array name="list_entryvalues_decimal_separator">
+        <item>point</item>
+        <item>comma</item>
+    </string-array>
+    <string-array name="list_grouping_separator">
+        <item>无效</item>
+        <item>有效</item>
+    </string-array>
+    <string-array name="list_entryvalues_grouping_separator">
+        <item>disable</item>
+        <item>enable</item>
+    </string-array>
+    
+    
+    
+    <string-array name="symbol_select">
+		<item>常量</item>
+		<item>函数</item>
+	</string-array>
+	
+    <string-array name="make_select">
+		<item>角度制</item>
+		<item>弧度制</item>
+	</string-array>
+	
+    <string-array name="system_select">
+		<item>十进制</item>
+		<item>二进制</item>
+	</string-array>
+	
+    <string-array name="respond_select">
+		<item>真人发音</item>
+		<item>标准响声</item>
+		<item>震动</item>
+	</string-array>
+	
+    <string-array name="copy_select">
+		<item>复制当前数值</item>
+		<item>复制当前行</item>
+		<item>复制整个文本</item>
+	</string-array>
+
+    <string-array name="tools_select">
+        <item>记录</item>
+        <!--<item>记账</item>-->
+        <item>教程</item>
+        <item>设置</item>
+        <item>关于</item>
+    </string-array>
+	
+</resources>

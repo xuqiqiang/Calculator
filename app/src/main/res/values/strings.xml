@@ -1,0 +1,312 @@
+<resources>
+    <string name="app_name">智能计算器</string>
+
+    <string name="website">https://xuqiqiang.github.io</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    //Exception messages
+    <string name="exception_message_generic">There was an application error</string>
+    <string name="exception_unknown">未知错误</string>
+    <string name="exception_message_no_connection">There is no internet connection</string>
+    <string name="exception_input_error">输入有误</string>
+    <string name="exception_input_infinite">输入为无穷大</string>
+    <string name="exception_symbol_content_empty">输入为空</string>
+    <string name="exception_symbol_name_empty">名称为空</string>
+    <string name="exception_symbol_name_exist">名称已存在</string>
+    <string name="exception_symbol_name_head">名称只能以字母开头</string>
+    <string name="exception_symbol_name_structure">名称只能由字母和数字组成</string>
+    <string name="exception_symbol_parameter">函数参数错误</string>
+    <string name="exception_symbol_name_conflict">符号名与参数名冲突</string>
+
+    <string name="input_empty">Enter null</string>
+
+    <string name="help_set">settings</string>
+
+    <string name="help_set_point_sum">小数位数</string>
+    <string name="help_set_detail_point_sum">设置小数位数</string>
+
+    <string name="help_set_make">角度制或弧度制</string>
+    <string name="help_set_auto_save">自动复制计算结果</string>
+
+    <string name="help_set_sound">Sound settings</string>
+    <string name="help_set_key_respond">按键响应</string>
+    <string name="help_set_vibrator_time">按键震动时间</string>
+    <string name="help_set_detail_vibrator_time">设置按键震动时间</string>
+
+    <string name="help_set_software">Software settings</string>
+    <string name="help_set_feedback">Feedback</string>
+    <string name="help_set_score">Score</string>
+    <string name="help_set_about">About</string>
+    <string name="help_set_updata">Update</string>
+    <string name="help_set_share">Share</string>
+    <string name="help_set_find">Found</string>
+
+
+    <string name="menu_reset">重置</string>
+    <string name="menu_finish">完成</string>
+
+    <string name="menu_clear">清空</string>
+
+    <!-- calc -->
+
+    <string name="Vibration_setting">震动设置</string>
+    <string name="Vibration_length1">震动长度</string>
+    <string name="Vibration_length2">震动长度</string>
+    <string name="Screen_settings">屏幕设置</string>
+    <string name="Margin_function_key1">功能键间距</string>
+    <string name="Margin_function_key2">功能键间距</string>
+    <string name="Margin_ten_key1">数字键间距</string>
+    <string name="Margin_ten_key2">数字键间距</string>
+    <string name="Separator_settings">分隔设置</string>
+    <string name="Decimal_separator1">小数点分隔符</string>
+    <string name="Decimal_separator2">小数点分隔符</string>
+    <string name="Grouping_separator1">分隔符</string>
+    <string name="Grouping_separator2">分隔符</string>
+    <string name="Ok">确定</string>
+    <string name="L_msg1">许可证错误</string>
+    <string name="L_msg2">"许可证错误。以下几个原因
+ 1.新版本在市场上存在
+ 2.无法连接到网络
+ 3.失去了牌照"</string>
+    <string name="L_msg3">许可证错误</string>
+    <string name="allow">ライセンス認証</string>
+    <string name="file_allow">ファイルライセンス認証</string>
+    <string name="Code1">Code1</string>
+    <string name="Code2">Code2</string>
+    <string name="Panecal_Plus">jp.ne.kutu.PanecalPlus</string>
+    <string name="Panecal">jp.ne.kutu.Panecal</string>
+
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="fore">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="jia">+</string>
+    <string name="jian">-</string>
+    <string name="cheng">*</string>
+    <string name="chu">/</string>
+    <string name="dengyu">=</string>
+    <string name="zhengfu">+/-</string>
+    <string name="dihao">.</string>
+    <string name="ping">x²</string>
+    <string name="kai">√x</string>
+    <string name="shanchu">ce</string>
+    <string name="shan">c</string>
+
+
+    <string name="key0">0</string>
+    <string name="key1">1</string>
+    <string name="key2">2</string>
+    <string name="key3">3</string>
+    <string name="key4">4</string>
+    <string name="key5">5</string>
+    <string name="key6">6</string>
+    <string name="key7">7</string>
+    <string name="key8">8</string>
+    <string name="key9">9</string>
+    <string name="keykakkol">(</string>
+    <string name="keykakkor">)</string>
+    <string name="keymultiply">×</string>
+    <string name="keydivide">÷</string>
+    <string name="keyplus">+</string>
+    <string name="keyminus">-</string>
+    <string name="keydot">.</string>
+    <string name="keyexp">^</string>
+    <string name="keycent">%</string>
+    <string name="keyequal">=</string>
+
+    <string name="keyup">▲</string>
+    <string name="keydown">▼</string>
+    <string name="keyleft">◀</string>
+    <string name="keyright">▶</string>
+    <string name="keydel">←</string>
+
+    <string name="keysin">sin</string>
+    <string name="keycos">cos</string>
+    <string name="keytan">tan</string>
+    <string name="keylog">log</string>
+    <string name="keyln">Ln</string>
+
+
+    <string name="keypi">π</string>
+    <string name="keye">e</string>
+    <string name="keyfy">φ</string>
+    <string name="keyrank">!</string>
+    <string name="keyclear">c</string>
+
+    <string name="keysym">符号</string>
+    <string name="keyfun">粘贴</string>
+    <string name="keydef">自定</string>
+    <string name="keycopy">复制</string>
+    <string name="keytools">工具</string>
+
+    <string name="keya">a</string>
+    <string name="keycomma">,</string>
+
+    <string name="title_new_value">自定义常量</string>
+    <string name="title_new_function">自定义函数</string>
+
+    <string name="nav_menu_reports">历史记录</string>
+    <string name="nav_menu_help">使用教程</string>
+    <string name="nav_menu_settings">设置</string>
+
+
+    <!-- settings start -->
+    <string name="number_title">数值</string>
+    <string name="number_key">number_key</string>
+    <string name="number_summary">设置数值</string>
+
+    <string name="make_title">角度制和弧度制</string>
+    <string name="make_key">make_key</string>
+    <string name="make_summary">设置角度制或弧度制</string>
+
+
+    <string name="system_title">数字进制</string>
+    <string name="system_key">system_key</string>
+    <string name="system_summary">设置数字进制</string>
+
+    <string name="point_sum_title">小数位数</string>
+    <string name="point_sum_key">point_sum_key</string>
+    <string name="point_sum_summary">设置小数位数</string>
+
+
+    <string name="use_title">声音设置</string>
+    <string name="use_key">use_key</string>
+    <string name="use_summary">声音设置</string>
+
+
+    <string name="about_title">关于</string>
+    <string name="about_key">about_key</string>
+    <string name="about_summary">关于</string>
+
+    <string name="share_title">分享</string>
+    <string name="share_key">share_key</string>
+    <string name="share_summary">分享这款应用</string>
+
+
+    <string name="is_save_title">自动复制计算结果</string>
+    <string name="is_save_key">is_save_key</string>
+    <string name="is_save_off">不自动复制</string>
+    <string name="is_save_on">自动复制</string>
+    <string name="checkbox_default_false">false</string>
+
+
+    <string name="respond_title">按键响应</string>
+    <string name="respond_key">respond_key</string>
+    <string name="respond_summary">设置按键响应模式</string>
+
+
+    <string name="vibrator_time_title">按键震动</string>
+    <string name="vibrator_time_key">vibrator_time_key</string>
+    <string name="vibrator_time_summary">设置按键震动时间</string>
+
+
+    <string name="setting_about_build_key">setting_about_build_key</string>
+    <string name="setting_about_build_title">上次使用时间</string>
+
+
+    <string name="full_screen_on">下次启动时全屏显示</string>
+    <string name="full_screen_off">下次启动时不全屏显示</string>
+    <!-- settings end -->
+
+
+    <string name="share">ensure</string>
+
+
+    <!-- help start -->
+
+
+    <string name="help_title">欢迎使用智能计算器</string>
+    <string name="function_title">功能介绍:</string>
+    <string name="function">
+\t\t·功能全面，支持复杂的四则混合运算。\n
+\t\t·支持自定义常量和函数的计算，并支持常量和函数的嵌套使用。\n
+\t\t·支持矩阵的计算。\n
+\t\t·自动保存计算的历史。\n
+\t\t·输入错误后一键还原。</string>
+    <string name="means_title">使用方法：</string>
+    <string name="means" formatted="false">1.示例\n\n
+\t\t简单计算：1+2*3*sin30=4\n
+\t\t带括号的简单计算：3+(1+2)^2=12\n
+\t\t函数计算：f1(1+f2(2))\n
+\t\t矩阵计算：[1,2;2,3]*2=[2,4;4,6]\n
+\t\t\n
+2.主界面\n\n
+\t\t主界面中有基本按键，包括：\n\n
+\t\t·数字键\n
+\t\t·加减乘除和等号\n
+\t\t·括号\n
+\t\t·上下左右，移动光标\n
+\t\t·左键头，退格\n
+\t\t·C，清空屏幕\n
+\t\t·功能键，最上一排的蓝色键，包括：\n
+\t\t·符号，进入符号选择界面\n
+\t\t·粘贴，输入剪贴板里面的内容\n
+\t\t·自定，自定义常量、函数、矩阵常量、矩阵函数\n
+\t\t·恢复，如果你输入后计算提示输入错误，点击可恢复输入的内容\n
+\t\t·历史，显示所有计算的记录\n
+\t\t\n
+\t\t\n
+3.符号界面\n\n
+\t\t在符号界面，点击任何一个按键可输入此符号，长按可弹出此符号的说明，如果此符号自定义的，可修改和删除.\n
+\t\t\n
+\t\t目前计算器自带的符号有：\n
+\t\tπ，圆周率，值为3.1415926\n
+\t\te，自然常数，值为2.7183\n
+\t\tφ，黄金分割率，值为0.618\n
+\t\tsin，正弦函数\n
+\t\tcos，余弦函数\n
+\t\ttan，正切函数\n
+\t\tcot，余切函数\n
+\t\tasin，反正弦函数\n
+\t\tacos，反余弦函数\n
+\t\tatan，反正切函数\n
+\t\tacot，反余切函数\n
+\t\tlog，以10为底的对数\n
+\t\tln，以e为底的对数 \n
+\t\t%，求余数，例如6%4=2\n
+\t\t!，表示阶乘，连续n个!表示n阶乘，例如4!=24,4!!=8\n
+\t\t^，乘方，例如3^2=9,9^0.5=3\n
+\t\t&amp;，按位与，例如3&amp;5=1,5&amp;6=4\n
+\t\t|，按位或，例如3|5=7,4|8=12\n
+\t\t,，逗号，用来隔开函数的参数或矩阵的列\n
+\t\t;，分号，用来隔开矩阵的行\n
+\t\t[和]，中括号，表示矩阵，例如：[1,2,3;7,8,9]\n
+\t\t\n
+\t\t\n
+4.自定义\n\n
+\t\t支持常量和函数的嵌套使用\n
+\t\t·自定义常量，内容可以是常数或表达式，例如a=1+2\n
+\t\t·自定义函数，内容可以是带有参数的表达式，例如exp(a1)=e^a1\n
+\t\t\n
+5.设置\n\n
+\t\t·设置小数点位数\n
+\t\t·设置角度制或弧度制，也就是设置sin等函数的单位。若设置了角度制，sin30=0.5,若设置了弧度制，则sin(π/2)=0.5\n
+\t\t\n
+6.注意事项\n\n
+一，请尽量输入规范，本软件支持纠错，例如：\n
+\t\t2*(1+2为2*(1+2)\n
+\t\t3*.5为3*0.5\n
+\t\t1..2为1.2\n
+\t\t2(1+2)为2*(1+2)\n
+\t\t2e为2*e\n
+\t\tsin-30为0.5\n
+\t\t\n
+二，运算符优先级：！> ^ > % = / = * > + = -\n
+\t\t请尽量多用括号\n
+\t\t
+
+</string>
+
+    <!-- settings end -->
+</resources>

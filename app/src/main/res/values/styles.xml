@@ -1,0 +1,54 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:textAppearanceButton">@style/AppBaseTheme.Button</item>
+        <!--<item name="android:dividerVertical">@drawable/list_divider_holo_light</item>-->
+        <!--<item name="android:dividerHorizontal">@drawable/list_divider_holo_light</item>-->
+        <!--<item name="android:listDivider">@drawable/list_divider_holo_light</item>-->
+        <!--<item name="android:divider">@drawable/list_divider_holo_light</item>-->
+
+        <item name="android:listViewStyle">@style/AppBaseTheme.ListView</item>
+    </style>
+
+    <style name="AppBaseTheme.Button">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="AppBaseTheme.ListView" parent="Base.Widget.AppCompat.ListView">
+        <item name="divider">@drawable/list_divider_holo_light</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

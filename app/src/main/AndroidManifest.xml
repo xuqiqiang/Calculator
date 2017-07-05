@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.snailstudio.software.calculator">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".presentation.AndroidApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".presentation.view.activity.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".presentation.view.activity.SymbolActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.view.activity.SettingsActivity"
+            android:label="@string/nav_menu_settings"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.view.activity.ReportsActivity"
+            android:label="@string/nav_menu_reports"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".presentation.view.activity.HelpActivity"
+            android:label="@string/nav_menu_help"
+            android:windowSoftInputMode="adjustPan" />
+
+        <service
+            android:name="com.snailstudio.library.logutils.writer.LogUtilsService"
+            android:exported="true"
+            android:process="com.snailstudio.service.logrecorde">
+            <intent-filter>
+                <action android:name="com.snailstudio.service.logrecorder.LogUtilsService" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>
